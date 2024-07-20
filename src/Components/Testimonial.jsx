@@ -3,9 +3,7 @@ import Card from "./Card";
 import { FiChevronLeft } from "react-icons/fi";
 import { FiChevronRight } from "react-icons/fi";
 
-const Testimonial = (props) => {
-  let reviews = props.reviews;
-  const [index, setIndex] = useState(0);
+
 
   function leftShiftHandler() {
     if (index - 1 < 0) {
